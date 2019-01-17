@@ -8,7 +8,7 @@ public static void main(String args[]) {
     do{
        
        System.out.print("1. ADD TWO NUMBERS\n");
-       //System.out.println("2. SUBTRACT TWO NUMBERS\n");
+       System.out.println("2. SUBTRACT TWO NUMBERS\n");
        System.out.print("3. EXIT\n\n");
        System.out.print("Enter your choice : ");
        choice = scan.next().charAt(0);
@@ -19,13 +19,14 @@ public static void main(String args[]) {
                     res = a+b;
                     System.out.print("Result = "+res);
                     break;
-          /*case '2': System.out.print("Enter Two Numbers\n");
+
+          case '2': System.out.print("Enter Two Numbers\n");
                     a = scan.nextFloat();
                     b = scan.nextFloat();
                     res = a-b;
                     System.out.print("Result = "+res);
                     break;   
-          */
+          
           case '3': System.exit(0);
                     break;
 
